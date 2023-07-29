@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <title>The Band</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- Navigation -->
+      <div class="nav">
+        <a href="" class="nav-item">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#member" class="nav-item">Member</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </div>
+      <!-- SlideShow -->
+      <div class="slide-show">
+        <img class="slides" src="./assets/img/img_ch.jpg" alt="" />
+        <img class="slides" src="./assets/img/img_la.jpg" alt="" />
+        <img class="slides" src="./assets/img/img_ny.jpg" alt="" />
+        <script>
+          w3.slideshow(".slides", 2500);
+        </script>
+
+        <!-- The band -->
+        <div id="about">
+          <h3 class="title">The band</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+            error enim expedita beatae consectetur tenetur quisquam voluptatem
+            dolorem, optio doloremque quod aliquid quasi! Praesentium ab vitae
+            suscipit magni vel. Repellendus?
+          </p>
+        </div>
+
+        <!-- Member -->
+        <div id="member">
+          <h3 class="title">Band Member</h3>
+          <div class="member-img-container">
+            <img src="./assets/img/img_bandmember.jpg" alt="" />
+            <img src="./assets/img/img_bandmember.jpg" alt="" />
+            <img src="./assets/img/img_bandmember.jpg" alt="" />
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact">
+          <h3 class="title">CONTACT</h3>
+          <p>Chicago, Us</p>
+          <p>Phone</p>
+          <p>Email</p>
+          <p>Fan? Drop a note</p>
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Message" />
+          <button>Send</button>
+        </div>
+        <img src="./assets/img/map.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
